@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>register page</title>
+  </head>
+  <body>
+    <div id="admin-box">   
+      <form>
+        <img src="../image/register.png" alt="admin image" width="100px" />
+        <h1>-----------Sing Up------------</h1>
+        <!-- <label for="frist name">frist name</label><br> -->
+        <input
+          type="text"
+          name="frist name"
+          placeholder="Frist name"
+          required
+        />
+        <!-- <label for="surname">Surname</label><br> -->
+        <input
+          type="text"
+          name="surname"
+          placeholder="Surname"
+          required
+         <!--  -->
+        <input
+          type="email"
+          name="email"
+          placeholder="mobile namber or email address"
+          required
+         
+         <!--  -->
+        <input
+          type="password"
+          name="password"
+          placeholder="New password"
+          required
+        />
+        <!-- <level for="confirm-password">confirm password</level> -->
+        <input
+          type="password"
+          name="confirm-password"
+          placeholder="confirm password"
+          required><br>
+         
+        <h3>Date of birth ?</h3><br>
+
+        <select name="month">
+          <option value="month">Month</option>
+          <option value="february">February</option>
+        </select>
+        <select name="day">
+          <option value="day">Day</option>
+          <option value="5">5</option>
+        </select>
+        <select name="yers">
+          <option value="yers">Years</option>
+          <option value="2002">2002</option>
+        </select><br><br>
+        <h3>Gender?</h3>
+        <div class="redio-group"> 
+          <label>
+            <input type="radio" value="male" name="gender">male
+          </label>
+          <label>
+            <input type="radio" value="female" name="gender">female
+          </label>
+          <label>
+            <input type="radio" value="costom" name="gender">costom
+          </label>
+        </div>
+        <input type="submit" value="submit" id="btn"/>
+      </form>
+    </div>
+  </body>
+</html>

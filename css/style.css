@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/220769/pexels-photo-220769.jpeg);
+}
+#admin-box {
+    background-color: transparent;
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
+    border: 2px solid aqua;
+    color: white;
+    border-radius: 3%; 
+    padding: 20px;
+}
+#admin-box h1{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+#admin-box img{
+    width: 120px; 
+    border-radius: 10%;
+}
+input, label{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+input{
+    background-color: transparent;
+    color: black;
+    border: 1px solid aqua;
+    border-radius: 20px;
+    transition: ease-in-out 0.8s;
+    margin: 2%;
+     
+}
+label{
+    font-size: 20px;
+    color: black;
+}
+p{
+    font-size: 15px;
+    color: aquamarine;
+}
+p a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+input:focus{
+    background-color: aliceblue;
+}
+input:hover{
+    background-color: pink; 
+}
+input::placeholder{
+    color: black;
+}
+#btn{
+    background-color: aqua; 
+}
+#btn:hover{
+     background-color: pink;
+    transition: ease-in-out 0.8s;
+}   
+input[type="submit"]{
+    width: 35%;
+    border: 1px solid pink;
+    margin: 10px auto; 
+}
+select{
+    background-color: aqua;
+    color:black;
+    border-radius: 30px;
+    width: 70px;
+    text-align: center;
+    border: 1px solid pink;
+}
+select:hover{
+    background-color: pink;
+    transition: ease-in-out 0.8s;
+     
+}
+.redio-group{
+    display: flex;
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
+    padding: 0;
+    padding-top: 0;
+}
+p a:hover{
+    background-color: chartreuse;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    transition: ease-in-out 0.8s;
+    color: black;
+}
+#button-box{
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+}
+#button-box p{
+    color: aliceblue;
+    display: block;
+    margin: 0;
+}
+
+
