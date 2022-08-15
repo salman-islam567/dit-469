@@ -1,12 +1,10 @@
-* {
+*{
     margin: 0;
-    border: 0;
     padding: 0;
+    border: 0;
 }
-.title-bar{
-    background-color: black;
-    color: white;
-    padding: 10px;
+body{
+    background-image: url(https://images.pexels.com/photos/220769/pexels-photo-220769.jpeg);
 }
 #admin-box {
     background-color: transparent;
@@ -17,13 +15,6 @@
     color: white;
     border-radius: 3%; 
     padding: 20px;
-    
-}
-body{
-     background-image: url(https://images.pexels.com/photos/220769/pexels-photo-220769.jpeg);
-     background-repeat: no-repeat;
-    
-     
 }
 #admin-box h1{
     font-size: 35px;
@@ -41,10 +32,12 @@ input, label{
 }
 input{
     background-color: transparent;
-    color: rgb(19, 2, 10);
+    color: black;
     border: 1px solid aqua;
     border-radius: 20px;
     transition: ease-in-out 0.8s;
+    margin: 2%;
+     
 }
 label{
     font-size: 20px;
@@ -52,14 +45,14 @@ label{
 }
 p{
     font-size: 15px;
-    color: black;
+    color: aquamarine;
 }
 p a{
     text-decoration: none;
     text-transform: capitalize;
 }
 input:focus{
-     background-color: aliceblue;
+    background-color: aliceblue;
 }
 input:hover{
     background-color: pink; 
@@ -68,26 +61,44 @@ input::placeholder{
     color: black;
 }
 #btn{
-    background-color: aqua;   
+    background-color: aqua; 
 }
 #btn:hover{
-    background-color: pink;
-    transition: ease-in-out 0.8s; 
-}
+     background-color: pink;
+    transition: ease-in-out 0.8s;
+}   
 input[type="submit"]{
     width: 35%;
     border: 1px solid pink;
-    margin: 10px auto;
+    margin: 10px auto; 
 }
-
-input[type="button"]{
-    border: 1px solid pink;
-    margin: 2px auto;
+select{
+    background-color: aqua;
+    color:black;
+    border-radius: 30px;
+    width: 70px;
     text-align: center;
-    padding: 10px;
+    border: 1px solid pink;
+}
+select:hover{
+    background-color: pink;
+    transition: ease-in-out 0.8s;
      
-    
-     
+}
+.redio-group{
+    display: flex;
+    width: 40%;
+    margin: 2% auto;
+    text-align: center;
+    padding: 0;
+    padding-top: 0;
+}
+p a:hover{
+    background-color: chartreuse;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    transition: ease-in-out 0.8s;
+    color: black;
 }
 #button-box{
     display: flex;
@@ -99,9 +110,5 @@ input[type="button"]{
     display: block;
     margin: 0;
 }
-p a:hover{
-    background-color:rgb(91, 221, 31);
-    border: 1px solid pink;
-    border-radius: 5px;
-}
+
 
